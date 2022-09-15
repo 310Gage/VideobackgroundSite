@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a7f6a3c50a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Video background</title>
+</head>
+<body>
+    <section id="main">
+        <div id="video-container">
+            <video id="Vbackground" autoplay muted loop src="background.mp4"></video>
+        </div>
+        <div dir="cover"></div>
+        <div id="content">
+            <h1 id="myName">Gage Hall</h1>
+            <h2>Web Developer</h2>
+            <button type="button" onclick="testFunction()">Click Me</button>
+            <script>
+                function testFunction() {
+                    document.getElementById("Vbackground").src = "background1.mp4"
+                }
+            </script>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1>About</h1>
+        <p>Currently enrolled in the Commonwealth Coders Web Development Program</p>
+        <h2>Follow me on social media</h2>
+        <div id="links">
+            <a class="elink" id="twitch" target="_blank" href="https://www.twitch.tv/310gage"><i class="fa-brands fa-twitch"></i></a>
+            <a class="elink" id="github" target="_blank" href="https://github.com/310Gage"><i class="fa-brands fa-github"></i></a>
+            <br>
+            <a class="elink" id="discord" target="_blank" href="https://discordapp.com/users/842167794152898560"><i class="fa-brands fa-discord"></i></a>
+            <a class="elink" id="youtube" target="_blank" href="https://www.youtube.com/c/Gage310/featured"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </section>
+</body>
+</html>
+
